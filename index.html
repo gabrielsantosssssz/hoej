@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Notas dos Alunos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1>Sistema de Notas dos Alunos</h1>
+    
+   
+    
+    <nav>
+        <button onclick="mostrarSecao('listagem')">Listagem de Alunos</button>
+        <button onclick="mostrarSecao('situacao')">Situação dos Alunos</button>
+        <button onclick="mostrarSecao('estatisticas')">Estatísticas</button>
+    </nav>
+    
+    
+    
+    <section id="listagem" class="secao">
+        <h2>Listagem de Alunos</h2>
+        <div id="listagem-alunos"></div>
+    </section>
+    
+   
+    
+    <section id="situacao" class="secao" style="display: none;">
+        <h2>Situação dos Alunos</h2>
+        <div id="situacao-alunos"></div>
+    </section>
+    
+   
+    
+    <section id="estatisticas" class="secao" style="display: none;">
+        <h2>Estatísticas</h2>
+        <div id="estatisticas"></div>
+    </section>
+</body>
+</html>

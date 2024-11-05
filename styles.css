@@ -1,0 +1,15 @@
+.secao {
+    display: none;
+}
+
+.aprovado {
+    color: blue;
+}
+
+.recuperacao {
+    color: yellow;
+}
+
+.reprovado {
+    color: red;
+}
